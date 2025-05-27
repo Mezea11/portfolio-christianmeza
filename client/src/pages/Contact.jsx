@@ -12,14 +12,5 @@ export default function Projects() {
       .catch((err) => console.error(err));
   }, []);
 
-  return (
-    <div className="p-4">
-      <h2 className="text-xl mb-4">Projects</h2>
-      <ul>
-        {data.map((item, idx) => (
-          <li key={idx}>{item.title}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <div>Contact</div>;
 }

@@ -13,7 +13,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <h1 className="text-4xl font-bold text-blue-500">Tailwind is working!</h1>
     </>
   );
 }
